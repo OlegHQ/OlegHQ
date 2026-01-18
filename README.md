@@ -31,15 +31,15 @@ Privacy-first design     Local-first apps, data sovereignty, GDPR/HIPAA patterns
 - [aws/aws-cdk#36652](https://github.com/aws/aws-cdk/pull/36652) — feat(synthetics): add syn-nodejs-3.0 runtime
 - [openai/openai-agents-js#841](https://github.com/openai/openai-agents-js/pull/841) — refactor: #275 simplify streaming state by removing unused index tracking
 
-Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)
+_Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
-**Projects I’m working on**
+**Projects I'm working on**
 
-- **[OlegHQ/OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
-- **[OlegHQ/hypertweet](https://github.com/OlegHQ/hypertweet)** — ⚡ AI-powered reply assistant for Twitter — runs locally in your browser, uses your OpenAI key, and helps you craft smart replies fast. Free to use. Firefox now, Chrome soon.
-- **[OlegHQ/nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
-- **[OlegHQ/website](https://github.com/OlegHQ/website)** — 💻 My website built with Hugo, Tailwind, GSAP. Fast, responsive, mildly over-engineered.
-- **[OlegHQ/scratchpad](https://github.com/OlegHQ/scratchpad)** — Knowledge pipeline for AI agents - REST API, MCP server, and HTMX web UI
+- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
+- **[hypertweet](https://github.com/OlegHQ/hypertweet)** — ⚡ AI-powered reply assistant for Twitter — runs locally in your browser, uses your OpenAI key, and helps you craft smart replies fast. Free to use. Firefox now, Chrome soon.
+- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
+- **[website](https://github.com/OlegHQ/website)** — 💻 My website built with Hugo, Tailwind, GSAP. Fast, responsive, mildly over-engineered.
+- **[scratchpad](https://github.com/OlegHQ/scratchpad)** — Knowledge pipeline for AI agents - REST API, MCP server, and HTMX web UI
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
