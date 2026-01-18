@@ -30,9 +30,9 @@ func OpenSourceBlock(in OpenSourceInput) string {
 		}
 	}
 	b.WriteString("\n")
-	b.WriteString(fmt.Sprintf("Full history: [%s](%s)\n\n", in.FullListPath, in.FullListPath))
+	b.WriteString(fmt.Sprintf("_Full history: [%s](%s)_\n\n", in.FullListPath, in.FullListPath))
 
-	b.WriteString("**Projects I’m working on**\n\n")
+	b.WriteString("**Projects I'm working on**\n\n")
 	if len(in.Projects) == 0 {
 		b.WriteString("- (no recent projects found)\n")
 	} else {
@@ -41,7 +41,12 @@ func OpenSourceBlock(in OpenSourceInput) string {
 			if desc == "" {
 				desc = "(no description)"
 			}
-			b.WriteString(fmt.Sprintf("- **[%s](%s)** — %s\n", r.NameWithOwner, r.URL, escapeInline(desc)))
+			// Use just the repo name, not owner/name
+			repoName := r.NameWithOwner
+			if idx := strings.Index(repoName, "/"); idx >= 0 {
+				repoName = repoName[idx+1:]
+			}
+			b.WriteString(fmt.Sprintf("- **[%s](%s)** — %s\n", repoName, r.URL, escapeInline(desc)))
 		}
 	}
 
