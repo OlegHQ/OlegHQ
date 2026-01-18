@@ -23,14 +23,25 @@ Privacy-first design     Local-first apps, data sovereignty, GDPR/HIPAA patterns
 
 ### 03 — Open Source
 
-**[LocalWave](https://github.com/nexo-tech/localwave)** — Local-first iOS music player. Full-text search, iCloud sync, no streaming dependency. SwiftUI + SQLite.
+<!-- DYNAMIC:OPEN_SOURCE:START -->
 
-**[Microtunnel](https://github.com/nexo-tech/microtunnel)** — Localhost tunneling from scratch. Built to understand the problem, wrote about it. Go + WebSockets + Caddy.
+**Latest merged OSS contributions**
 
-**[HyperTweet](https://github.com/nexo-tech/hypertweet)** — AI writing assistant for X. Context-aware content generation via OpenRouter. F# backend.
+- [pnpm/pnpm#10437](https://github.com/pnpm/pnpm/pull/10437) — fix(run): fail when no packages have script in filtered recursive run
+- [aws/aws-cdk#36652](https://github.com/aws/aws-cdk/pull/36652) — feat(synthetics): add syn-nodejs-3.0 runtime
+- [openai/openai-agents-js#841](https://github.com/openai/openai-agents-js/pull/841) — refactor: #275 simplify streaming state by removing unused index tracking
 
-**[PSD SDK](https://github.com/nexo-tech/psd-sdk)** — Photoshop file parser for Dart. Full layer tree, blend modes, masks. Port from C++ reference implementation.
+Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)
 
+**Projects I’m working on**
+
+- **[OlegHQ/OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
+- **[OlegHQ/hypertweet](https://github.com/OlegHQ/hypertweet)** — ⚡ AI-powered reply assistant for Twitter — runs locally in your browser, uses your OpenAI key, and helps you craft smart replies fast. Free to use. Firefox now, Chrome soon.
+- **[OlegHQ/nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
+- **[OlegHQ/website](https://github.com/OlegHQ/website)** — 💻 My website built with Hugo, Tailwind, GSAP. Fast, responsive, mildly over-engineered.
+- **[OlegHQ/scratchpad](https://github.com/OlegHQ/scratchpad)** — Knowledge pipeline for AI agents - REST API, MCP server, and HTMX web UI
+
+<!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
 
 ### 04 — Background
