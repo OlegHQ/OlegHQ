@@ -35,11 +35,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
-- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[hypertweet](https://github.com/OlegHQ/hypertweet)** — ⚡ AI-powered reply assistant for Twitter — runs locally in your browser, uses your OpenAI key, and helps you craft smart replies fast. Free to use. Firefox now, Chrome soon.
 - **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
+- **[claude-config](https://github.com/OlegHQ/claude-config)** — 🤖 Nix flake for Claude Code config - settings, commands & skills as Home Manager module
+- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[website](https://github.com/OlegHQ/website)** — 💻 My website built with Hugo, Tailwind, GSAP. Fast, responsive, mildly over-engineered.
-- **[scratchpad](https://github.com/OlegHQ/scratchpad)** — Knowledge pipeline for AI agents - REST API, MCP server, and HTMX web UI
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
