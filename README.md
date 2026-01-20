@@ -27,6 +27,7 @@ Privacy-first design     Local-first apps, data sovereignty, GDPR/HIPAA patterns
 
 **Latest merged OSS contributions**
 
+- [openai/openai-agents-js#887](https://github.com/openai/openai-agents-js/pull/887) — fix(agents-core): handle invalid JSON in tool call arguments gracefully
 - [pnpm/pnpm#10437](https://github.com/pnpm/pnpm/pull/10437) — fix(run): fail when no packages have script in filtered recursive run
 - [aws/aws-cdk#36652](https://github.com/aws/aws-cdk/pull/36652) — feat(synthetics): add syn-nodejs-3.0 runtime
 - [openai/openai-agents-js#841](https://github.com/openai/openai-agents-js/pull/841) — refactor: #275 simplify streaming state by removing unused index tracking
@@ -35,11 +36,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
+- **[smdctl](https://github.com/OlegHQ/smdctl)** — AI-friendly Docker-like CLI for systemd service management
+- **[claude-config](https://github.com/OlegHQ/claude-config)** — 🤖 Nix flake for Claude Code config - settings, commands & skills as Home Manager module
 - **[hypertweet](https://github.com/OlegHQ/hypertweet)** — ⚡ AI-powered reply assistant for Twitter — runs locally in your browser, uses your OpenAI key, and helps you craft smart replies fast. Free to use. Firefox now, Chrome soon.
 - **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
-- **[claude-config](https://github.com/OlegHQ/claude-config)** — 🤖 Nix flake for Claude Code config - settings, commands & skills as Home Manager module
-- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
-- **[website](https://github.com/OlegHQ/website)** — 💻 My website built with Hugo, Tailwind, GSAP. Fast, responsive, mildly over-engineered.
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
