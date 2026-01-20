@@ -2,14 +2,14 @@ package sync
 
 import (
 	"context"
-	"encoding/base64"
 	"errors"
 	"fmt"
+	"net/url"
 	"sort"
 	"strings"
 	"time"
 
-	"oleghq-readme-sync/internal/ghcli"
+	"oleghq-readme-sync/internal/github"
 	"oleghq-readme-sync/internal/render"
 )
 
@@ -18,14 +18,50 @@ const (
 	openSourceEnd   = "<!-- DYNAMIC:OPEN_SOURCE:END -->"
 )
 
-func Run(ctx context.Context, gh *ghcli.Client, cfg Config) error {
+func normalizeRepo(repo string) (string, error) {
+	repo = strings.TrimSpace(repo)
+	if repo == "" {
+		return "", fmt.Errorf("repo is required")
+	}
+	if strings.HasPrefix(repo, "http://") || strings.HasPrefix(repo, "https://") {
+		u, err := url.Parse(repo)
+		if err != nil {
+			return "", err
+		}
+		path := strings.Trim(u.Path, "/")
+		if path == "" {
+			return "", fmt.Errorf("invalid repo URL: %s", repo)
+		}
+		return path, nil
+	}
+	if strings.HasPrefix(repo, "github.com/") {
+		return strings.TrimPrefix(repo, "github.com/"), nil
+	}
+	return repo, nil
+}
+
+func parseOwnerRepo(nwo string) (owner, repo string, err error) {
+	parts := strings.Split(nwo, "/")
+	if len(parts) != 2 {
+		return "", "", fmt.Errorf("invalid repo format: %s (expected owner/repo)", nwo)
+	}
+	return parts[0], parts[1], nil
+}
+
+func Run(ctx context.Context, gh *github.Client, cfg Config) error {
 	normalized, err := normalizeRepo(cfg.Repo)
 	if err != nil {
 		return err
 	}
 	cfg.Repo = normalized
+
+	owner, repo, err := parseOwnerRepo(cfg.Repo)
+	if err != nil {
+		return err
+	}
+
 	if cfg.Branch == "" {
-		_, defaultBranch, err := resolveRepoOwnerAndDefaultBranch(ctx, gh, cfg.Repo)
+		_, defaultBranch, err := resolveRepoOwnerAndDefaultBranch(ctx, gh, owner, repo)
 		if err != nil {
 			return err
 		}
@@ -37,18 +73,19 @@ func Run(ctx context.Context, gh *ghcli.Client, cfg Config) error {
 	if cfg.FullListPath == "" {
 		cfg.FullListPath = "CONTRIBUTIONS.md"
 	}
-	owner, _, err := resolveRepoOwnerAndDefaultBranch(ctx, gh, cfg.Repo)
+
+	repoOwner, _, err := resolveRepoOwnerAndDefaultBranch(ctx, gh, owner, repo)
 	if err != nil {
 		return err
 	}
 	if cfg.ProjectsOwner == "" {
-		cfg.ProjectsOwner = owner
+		cfg.ProjectsOwner = repoOwner
 	}
 	if cfg.ActorLogin == "" {
-		cfg.ActorLogin = owner
+		cfg.ActorLogin = repoOwner
 	}
 	if len(cfg.SkipOwners) == 0 {
-		cfg.SkipOwners = []string{owner}
+		cfg.SkipOwners = []string{repoOwner}
 	}
 	if cfg.PRFetchLimit <= 0 {
 		cfg.PRFetchLimit = 200
@@ -91,10 +128,12 @@ func Run(ctx context.Context, gh *ghcli.Client, cfg Config) error {
 		GeneratedTime: time.Now().UTC(),
 	})
 
-	readme, readmeSHA, err := getContent(ctx, gh, cfg.Repo, cfg.ReadmePath, cfg.Branch)
+	fc, err := gh.GetContent(ctx, owner, repo, cfg.ReadmePath, cfg.Branch)
 	if err != nil {
-		return err
+		return fmt.Errorf("get README: %w", err)
 	}
+	readme, readmeSHA := fc.Content, fc.SHA
+
 	newReadme, err := upsertOpenSourceBlock(readme, readmeBlock)
 	if err != nil {
 		return err
@@ -108,66 +147,16 @@ func Run(ctx context.Context, gh *ghcli.Client, cfg Config) error {
 		return nil
 	}
 
-	if err := putContent(ctx, gh, cfg.Repo, cfg.ReadmePath, cfg.Branch, readmeSHA, []byte(newReadme), "chore: update README dynamic open source"); err != nil {
-		return err
+	if err := gh.PutContent(ctx, owner, repo, cfg.ReadmePath, cfg.Branch, readmeSHA, []byte(newReadme), "chore: update README dynamic open source"); err != nil {
+		return fmt.Errorf("update README: %w", err)
 	}
 
-	contribsSHA, _ := getContentSHA(ctx, gh, cfg.Repo, cfg.FullListPath, cfg.Branch) // ok if missing
-	if err := putContent(ctx, gh, cfg.Repo, cfg.FullListPath, cfg.Branch, contribsSHA, []byte(contribsMD), "chore: update contributions history"); err != nil {
-		return err
+	contribsSHA, _ := gh.GetContentSHA(ctx, owner, repo, cfg.FullListPath, cfg.Branch) // ok if missing
+	if err := gh.PutContent(ctx, owner, repo, cfg.FullListPath, cfg.Branch, contribsSHA, []byte(contribsMD), "chore: update contributions history"); err != nil {
+		return fmt.Errorf("update contributions: %w", err)
 	}
 
 	return nil
-}
-
-func getContent(ctx context.Context, gh *ghcli.Client, repo, path, branch string) (string, string, error) {
-	endpoint := fmt.Sprintf("repos/%s/contents/%s?ref=%s", repo, path, branch)
-	out, err := gh.Run(ctx, "api", endpoint)
-	if err != nil {
-		return "", "", err
-	}
-	var resp struct {
-		SHA      string `json:"sha"`
-		Content  string `json:"content"`
-		Encoding string `json:"encoding"`
-	}
-	if err := ghcli.JSON(out, &resp); err != nil {
-		return "", "", err
-	}
-	if resp.Encoding != "base64" {
-		return "", "", fmt.Errorf("unexpected encoding for %s: %s", path, resp.Encoding)
-	}
-	b, err := base64.StdEncoding.DecodeString(strings.ReplaceAll(resp.Content, "\n", ""))
-	if err != nil {
-		return "", "", err
-	}
-	return string(b), resp.SHA, nil
-}
-
-func getContentSHA(ctx context.Context, gh *ghcli.Client, repo, path, branch string) (string, error) {
-	endpoint := fmt.Sprintf("repos/%s/contents/%s?ref=%s", repo, path, branch)
-	out, err := gh.Run(ctx, "api", endpoint)
-	if err != nil {
-		return "", err
-	}
-	var resp struct {
-		SHA string `json:"sha"`
-	}
-	if err := ghcli.JSON(out, &resp); err != nil {
-		return "", err
-	}
-	return resp.SHA, nil
-}
-
-func putContent(ctx context.Context, gh *ghcli.Client, repo, path, branch, sha string, content []byte, message string) error {
-	encoded := base64.StdEncoding.EncodeToString(content)
-
-	args := []string{"api", "-X", "PUT", fmt.Sprintf("repos/%s/contents/%s", repo, path), "-f", "branch=" + branch, "-f", "message=" + message, "-f", "content=" + encoded}
-	if sha != "" {
-		args = append(args, "-f", "sha="+sha)
-	}
-	_, err := gh.Run(ctx, args...)
-	return err
 }
 
 func upsertOpenSourceBlock(readme, block string) (string, error) {

@@ -1,0 +1,17 @@
+name: ghagent-sync
+description: GitHub Agent sync service with daily scheduled task
+command: /usr/bin/true
+workdir: /home/snowbear/projects/ghagent
+restart: no
+
+# Scheduled task: sync daily at 8 AM Zagreb timezone
+tasks:
+  - name: daily-sync
+    description: Run GitHub sync daily at 8 AM Zagreb time
+    command: ./bin/sync
+    args: [--repo, github.com/oleghq/oleghq, --prs-scope, both]
+    environment:
+      GITHUB_TOKEN: ""  # Set via: smdctl env ghagent-sync-task-daily-sync
+    schedule:
+      on_calendar: "*-*-* 08:00:00 Europe/Zagreb"
+      persistent: true

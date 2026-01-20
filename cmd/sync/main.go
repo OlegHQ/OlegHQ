@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"oleghq-readme-sync/internal/ghcli"
+	"oleghq-readme-sync/internal/github"
 	"oleghq-readme-sync/internal/sync"
 )
 
@@ -31,12 +31,23 @@ func run() int {
 	)
 	flag.Parse()
 
+	token := os.Getenv("GITHUB_TOKEN")
+	if token == "" {
+		fmt.Fprintln(os.Stderr, "GITHUB_TOKEN environment variable is required")
+		return 1
+	}
+
 	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Minute)
 	defer cancel()
 
-	client := ghcli.New(ghcli.Options{
+	client, err := github.New(github.Options{
+		Token:   token,
 		Timeout: 30 * time.Second,
 	})
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return 1
+	}
 
 	if err := client.Check(ctx); err != nil {
 		fmt.Fprintln(os.Stderr, err)
