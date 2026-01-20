@@ -2,7 +2,7 @@
 
 Merged pull requests to third-party public repositories.
 
-_Last updated: 2026-01-18T21:04:55Z_
+_Last updated: 2026-01-19T22:52:19Z_
 
 - 2026-01-16 — [pnpm/pnpm#10437](https://github.com/pnpm/pnpm/pull/10437) — fix(run): fail when no packages have script in filtered recursive run
 - 2026-01-12 — [aws/aws-cdk#36652](https://github.com/aws/aws-cdk/pull/36652) — feat(synthetics): add syn-nodejs-3.0 runtime
