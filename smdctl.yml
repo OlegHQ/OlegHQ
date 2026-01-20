@@ -11,7 +11,8 @@ tasks:
     command: ./bin/sync
     args: [--repo, github.com/oleghq/oleghq, --prs-scope, both]
     environment:
-      GITHUB_TOKEN: ""  # Set via: smdctl env ghagent-sync-task-daily-sync
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
     schedule:
       on_calendar: "*-*-* 08:00:00 Europe/Zagreb"
       persistent: true
+
