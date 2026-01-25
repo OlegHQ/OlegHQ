@@ -36,11 +36,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[macmaster](https://github.com/OlegHQ/macmaster)** — AI-friendly Mac cleaning and optimization CLI
 - **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 - **[claude-config](https://github.com/OlegHQ/claude-config)** — 🤖 Nix flake for Claude Code config - settings, commands & skills as Home Manager module
 - **[smdctl](https://github.com/OlegHQ/smdctl)** — AI-friendly Docker-like CLI for systemd service management
-- **[hypertweet](https://github.com/OlegHQ/hypertweet)** — ⚡ AI-powered reply assistant for Twitter — runs locally in your browser, uses your OpenAI key, and helps you craft smart replies fast. Free to use. Firefox now, Chrome soon.
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
