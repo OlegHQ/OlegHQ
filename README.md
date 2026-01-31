@@ -36,8 +36,8 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
-- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 - **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
+- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 - **[taskdog](https://github.com/OlegHQ/taskdog)** — (no description)
 - **[nvim-config](https://github.com/OlegHQ/nvim-config)** — 🧠 Neovim Config with ThemeKit & AutoConf A clean, modular Neovim setup powered by autoconf.nvim and themekit.nvim. Supports on-the-fly theme switching 🎨, smart LSP integration 🔍, and TOML-based config files for sanity 🛠️
 - **[claude-config](https://github.com/OlegHQ/claude-config)** — 🤖 Nix flake for Claude Code config - settings, commands & skills as Home Manager module
