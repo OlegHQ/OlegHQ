@@ -55,5 +55,5 @@ Currently: Technical advisor for AI startups. Building infrastructure for agenti
 
 ### 05 — Connect
 
-[nexo.sh](https://nexo.sh) · [me@opustovit.com](mailto:me@opustovit.com) · [@nexo_v1](https://twitter.com/nexo_v1)
+[nexo.sh](https://nexo.sh) · [me@opustovit.com](mailto:me@opustovit.com) · [@olegpustovit](https://twitter.com/olegpustovit)
 
