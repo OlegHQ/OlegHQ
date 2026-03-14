@@ -36,8 +36,8 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
-- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 - **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
+- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 - **[claude-config](https://github.com/OlegHQ/claude-config)** — 🤖 Nix flake for Claude Code config - settings, commands & skills as Home Manager module
 - **[invoice-generator](https://github.com/OlegHQ/invoice-generator)** — (no description)
 - **[social-post-image](https://github.com/OlegHQ/social-post-image)** — 🖼️ Generate beautiful social media preview images for Twitter cards, Open Graph, and blog posts
