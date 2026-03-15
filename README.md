@@ -30,16 +30,17 @@ Privacy-first design     Local-first apps, data sovereignty, GDPR/HIPAA patterns
 - [openai/openai-agents-js#887](https://github.com/openai/openai-agents-js/pull/887) — fix(agents-core): handle invalid JSON in tool call arguments gracefully
 - [pnpm/pnpm#10437](https://github.com/pnpm/pnpm/pull/10437) — fix(run): fail when no packages have script in filtered recursive run
 - [aws/aws-cdk#36652](https://github.com/aws/aws-cdk/pull/36652) — feat(synthetics): add syn-nodejs-3.0 runtime
+- [nexo-tech/clawde#1](https://github.com/nexo-tech/clawde/pull/1) — feat: Initial Clawde SDK implementation
 - [openai/openai-agents-js#841](https://github.com/openai/openai-agents-js/pull/841) — refactor: #275 simplify streaming state by removing unused index tracking
 
 _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
-- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
+- **[agentpack](https://github.com/OlegHQ/agentpack)** — (no description)
 - **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
-- **[claude-config](https://github.com/OlegHQ/claude-config)** — 🤖 Nix flake for Claude Code config - settings, commands & skills as Home Manager module
-- **[invoice-generator](https://github.com/OlegHQ/invoice-generator)** — (no description)
+- **[nvim-config](https://github.com/OlegHQ/nvim-config)** — 🧠 Neovim Config with ThemeKit & AutoConf A clean, modular Neovim setup powered by autoconf.nvim and themekit.nvim. Supports on-the-fly theme switching 🎨, smart LSP integration 🔍, and TOML-based config files for sanity 🛠️
+- **[autoconf.nvim](https://github.com/OlegHQ/autoconf.nvim)** — ⚙️ Neovim configuration in TOML + Lua. Helix-like keymaps, LSP, Tree-sitter, plugin management, and modular architecture.
 - **[social-post-image](https://github.com/OlegHQ/social-post-image)** — 🖼️ Generate beautiful social media preview images for Twitter cards, Open Graph, and blog posts
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
