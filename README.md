@@ -37,8 +37,8 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
-- **[rssdude](https://github.com/OlegHQ/rssdude)** — 📡 Local-first RSS feed reader and content curation tool built in Rust — TUI browser, CLI commands, and HTTP server mode
 - **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
+- **[rssdude](https://github.com/OlegHQ/rssdude)** — 📡 Local-first RSS feed reader and content curation tool built in Rust — TUI browser, CLI commands, and HTTP server mode
 - **[agentpack](https://github.com/OlegHQ/agentpack)** — (no description)
 - **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 - **[nvim-config](https://github.com/OlegHQ/nvim-config)** — 🧠 Neovim Config with ThemeKit & AutoConf A clean, modular Neovim setup powered by autoconf.nvim and themekit.nvim. Supports on-the-fly theme switching 🎨, smart LSP integration 🔍, and TOML-based config files for sanity 🛠️
