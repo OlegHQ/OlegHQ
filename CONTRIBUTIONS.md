@@ -2,7 +2,7 @@
 
 Merged pull requests to third-party public repositories.
 
-_Last updated: 2026-03-27T07:00:14Z_
+_Last updated: 2026-03-28T07:00:06Z_
 
 - 2026-01-20 — [openai/openai-agents-js#887](https://github.com/openai/openai-agents-js/pull/887) — fix(agents-core): handle invalid JSON in tool call arguments gracefully
 - 2026-01-16 — [pnpm/pnpm#10437](https://github.com/pnpm/pnpm/pull/10437) — fix(run): fail when no packages have script in filtered recursive run
