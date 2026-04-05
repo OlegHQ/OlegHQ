@@ -37,11 +37,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
-- **[agentpack](https://github.com/OlegHQ/agentpack)** — (no description)
-- **[agent-configs](https://github.com/OlegHQ/agent-configs)** — (no description)
-- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
-- **[nvim-config](https://github.com/OlegHQ/nvim-config)** — 🧠 Neovim Config with ThemeKit & AutoConf A clean, modular Neovim setup powered by autoconf.nvim and themekit.nvim. Supports on-the-fly theme switching 🎨, smart LSP integration 🔍, and TOML-based config files for sanity 🛠️
-- **[autoconf.nvim](https://github.com/OlegHQ/autoconf.nvim)** — ⚙️ Neovim configuration in TOML + Lua. Helix-like keymaps, LSP, Tree-sitter, plugin management, and modular architecture.
+- **[website](https://github.com/OlegHQ/website)** — 💻 My website built with Hugo, Tailwind, GSAP. Fast, responsive, mildly over-engineered.
+- **[agentpack](https://github.com/OlegHQ/agentpack)** — 🤖 The package manager for AI coding agents — pin, resolve, and sync skills & plugins across Claude Code, Cursor, OpenCode, and Codex
+- **[homebrew-agentpack](https://github.com/OlegHQ/homebrew-agentpack)** — Homebrew tap for agentpack (https://github.com/OlegHQ/agentpack)
+- **[agent-configs](https://github.com/OlegHQ/agent-configs)** — 📋 Shared configuration templates for AI agent deployments
+- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
