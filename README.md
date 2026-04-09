@@ -37,9 +37,9 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[notion-calendar-cli](https://github.com/OlegHQ/notion-calendar-cli)** — (no description)
 - **[agentpack](https://github.com/OlegHQ/agentpack)** — 🤖 The package manager for AI coding agents — pin, resolve, and sync skills & plugins across Claude Code, Cursor, OpenCode, and Codex
-- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[agent-configs](https://github.com/OlegHQ/agent-configs)** — 📋 Shared configuration templates for AI agent deployments
 - **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 
