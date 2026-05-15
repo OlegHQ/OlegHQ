@@ -37,10 +37,10 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 - **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[rssdude](https://github.com/OlegHQ/rssdude)** — 📡 Local-first RSS feed reader and content curation tool built in Rust — TUI browser, CLI commands, and HTTP server mode
 - **[homebrew-tap](https://github.com/OlegHQ/homebrew-tap)** — Homebrew tap for OlegHQ tools (rssdude, …)
-- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 - **[nvim-config](https://github.com/OlegHQ/nvim-config)** — 🧠 Neovim Config with ThemeKit & AutoConf A clean, modular Neovim setup powered by autoconf.nvim and themekit.nvim. Supports on-the-fly theme switching 🎨, smart LSP integration 🔍, and TOML-based config files for sanity 🛠️
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
