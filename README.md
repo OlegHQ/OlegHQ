@@ -37,11 +37,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[smdctl](https://github.com/OlegHQ/smdctl)** — 🐳 AI-friendly Docker-like CLI for systemd service management
+- **[agentpack](https://github.com/OlegHQ/agentpack)** — 🤖 The package manager for AI coding agents — pin, resolve, and sync skills & plugins across Claude Code, Cursor, OpenCode, and Codex
+- **[rssdude](https://github.com/OlegHQ/rssdude)** — 📡 Local-first RSS feed reader and content curation tool built in Rust — TUI browser, CLI commands, and HTTP server mode
 - **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[tailscale-screenshot](https://github.com/OlegHQ/tailscale-screenshot)** — Copy screenshot, hit Ctrl+Shift+U, paste a Tailscale URL anywhere. Rust server + Chrome extension.
-- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
-- **[rssdude](https://github.com/OlegHQ/rssdude)** — 📡 Local-first RSS feed reader and content curation tool built in Rust — TUI browser, CLI commands, and HTTP server mode
-- **[homebrew-tap](https://github.com/OlegHQ/homebrew-tap)** — Homebrew tap for OlegHQ tools (rssdude, …)
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
