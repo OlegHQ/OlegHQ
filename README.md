@@ -37,11 +37,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
-- **[tailscale-screenshot](https://github.com/OlegHQ/tailscale-screenshot)** — Copy screenshot, hit Ctrl+Shift+U, paste a Tailscale URL anywhere. Rust server + Chrome extension.
-- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[agentpack](https://github.com/OlegHQ/agentpack)** — 🤖 The package manager for AI coding agents — pin, resolve, and sync skills & plugins across Claude Code, Cursor, OpenCode, and Codex
+- **[homebrew-tap](https://github.com/OlegHQ/homebrew-tap)** — Homebrew tap for OlegHQ tools (rssdude, …)
+- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
+- **[tailscale-screenshot](https://github.com/OlegHQ/tailscale-screenshot)** — Copy screenshot, hit Ctrl+Shift+U, paste a Tailscale URL anywhere. Rust server + Chrome extension.
 - **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
-- **[smdctl](https://github.com/OlegHQ/smdctl)** — 🐳 AI-friendly Docker-like CLI for systemd service management
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
