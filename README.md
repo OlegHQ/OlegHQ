@@ -37,11 +37,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
-- **[agentpack](https://github.com/OlegHQ/agentpack)** — 🤖 The package manager for AI coding agents — pin, resolve, and sync skills & plugins across Claude Code, Cursor, OpenCode, and Codex
+- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
+- **[agentpack](https://github.com/OlegHQ/agentpack)** — 🤖 The package manager for AI coding agents — pin, resolve, and sync skills & plugins across Claude Code, Cursor, OpenCode, Codex, Grok, and Antigravity
+- **[website](https://github.com/OlegHQ/website)** — 💻 My website built with Hugo, Tailwind, GSAP. Fast, responsive, mildly over-engineered.
 - **[homebrew-tap](https://github.com/OlegHQ/homebrew-tap)** — Homebrew tap for OlegHQ tools (rssdude, …)
 - **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
-- **[tailscale-screenshot](https://github.com/OlegHQ/tailscale-screenshot)** — Copy screenshot, hit Ctrl+Shift+U, paste a Tailscale URL anywhere. Rust server + Chrome extension.
-- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
