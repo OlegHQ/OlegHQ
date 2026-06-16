@@ -38,9 +38,9 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 **Projects I'm working on**
 
 - **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
-- **[linear-mcp-cli](https://github.com/OlegHQ/linear-mcp-cli)** — Command-line client for Linear generated from Linear MCP tools
 - **[icloud-cli](https://github.com/OlegHQ/icloud-cli)** — Rust CLI for iCloud Reminders, Notes, Hide My Email, and an automation-friendly virtual filesystem
 - **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
+- **[linear-mcp-cli](https://github.com/OlegHQ/linear-mcp-cli)** — Command-line client for Linear generated from Linear MCP tools
 - **[homebrew-tap](https://github.com/OlegHQ/homebrew-tap)** — Homebrew tap for OlegHQ tools (rssdude, …)
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
