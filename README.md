@@ -37,11 +37,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[agentpack](https://github.com/OlegHQ/agentpack)** — 🤖 The package manager for AI coding agents — pin, resolve, and sync skills & plugins across Claude Code, Cursor, OpenCode, Codex, Grok, and Antigravity
+- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 - **[icloud-cli](https://github.com/OlegHQ/icloud-cli)** — Rust CLI for iCloud Reminders, Notes, Hide My Email, and an automation-friendly virtual filesystem
-- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[linear-mcp-cli](https://github.com/OlegHQ/linear-mcp-cli)** — Command-line client for Linear generated from Linear MCP tools
-- **[homebrew-tap](https://github.com/OlegHQ/homebrew-tap)** — Homebrew tap for OlegHQ tools (rssdude, …)
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
