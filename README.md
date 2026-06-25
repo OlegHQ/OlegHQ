@@ -37,11 +37,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
-- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
-- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
+- **[homebrew-tap](https://github.com/OlegHQ/homebrew-tap)** — Homebrew tap for OlegHQ tools (rssdude, …)
 - **[agentpack](https://github.com/OlegHQ/agentpack)** — 🤖 The package manager for AI coding agents — pin, resolve, and sync skills & plugins across Claude Code, Cursor, OpenCode, Codex, Grok, and Antigravity
-- **[icloud-cli](https://github.com/OlegHQ/icloud-cli)** — Rust CLI for iCloud Reminders, Notes, Hide My Email, and an automation-friendly virtual filesystem
-- **[linear-mcp-cli](https://github.com/OlegHQ/linear-mcp-cli)** — Command-line client for Linear generated from Linear MCP tools
+- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
+- **[nvim-config](https://github.com/OlegHQ/nvim-config)** — 🧠 Neovim Config with ThemeKit & AutoConf A clean, modular Neovim setup powered by autoconf.nvim and themekit.nvim. Supports on-the-fly theme switching 🎨, smart LSP integration 🔍, and TOML-based config files for sanity 🛠️
+- **[autoconf.nvim](https://github.com/OlegHQ/autoconf.nvim)** — ⚙️ Neovim configuration in TOML + Lua. Helix-like keymaps, LSP, Tree-sitter, plugin management, and modular architecture.
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
