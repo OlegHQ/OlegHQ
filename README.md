@@ -37,11 +37,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[dream-validate](https://github.com/OlegHQ/dream-validate)** — Typed Dream request DTO decoding and declarative validation for OCaml
+- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[ent-ocaml](https://github.com/OlegHQ/ent-ocaml)** — (no description)
 - **[agent-configs](https://github.com/OlegHQ/agent-configs)** — 📋 Shared configuration templates for AI agent deployments
 - **[tailscale-screenshot](https://github.com/OlegHQ/tailscale-screenshot)** — Copy screenshot, hit Ctrl+Shift+U, paste a Tailscale URL anywhere. Rust server + Chrome extension.
-- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
-- **[nvim-config](https://github.com/OlegHQ/nvim-config)** — 🧠 Neovim Config with ThemeKit & AutoConf A clean, modular Neovim setup powered by autoconf.nvim and themekit.nvim. Supports on-the-fly theme switching 🎨, smart LSP integration 🔍, and TOML-based config files for sanity 🛠️
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
