@@ -37,8 +37,8 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
-- **[dream-validate](https://github.com/OlegHQ/dream-validate)** — Typed Dream request DTO decoding and declarative validation for OCaml
 - **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
+- **[dream-validate](https://github.com/OlegHQ/dream-validate)** — Typed Dream request DTO decoding and declarative validation for OCaml
 - **[ent-ocaml](https://github.com/OlegHQ/ent-ocaml)** — (no description)
 - **[agent-configs](https://github.com/OlegHQ/agent-configs)** — 📋 Shared configuration templates for AI agent deployments
 - **[tailscale-screenshot](https://github.com/OlegHQ/tailscale-screenshot)** — Copy screenshot, hit Ctrl+Shift+U, paste a Tailscale URL anywhere. Rust server + Chrome extension.
