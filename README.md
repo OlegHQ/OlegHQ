@@ -37,10 +37,10 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[workflow-runtime](https://github.com/OlegHQ/workflow-runtime)** — Small in-process workflow observation runtime for OCaml
 - **[website](https://github.com/OlegHQ/website)** — 💻 My website built with Hugo, Tailwind, GSAP. Fast, responsive, mildly over-engineered.
 - **[oauth2-eio](https://github.com/OlegHQ/oauth2-eio)** — Eio-first OAuth2 client primitives for OCaml
-- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[resend-eio](https://github.com/OlegHQ/resend-eio)** — (no description)
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
