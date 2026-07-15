@@ -37,9 +37,9 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[homebrew-tap](https://github.com/OlegHQ/homebrew-tap)** — Homebrew tap for OlegHQ tools (rssdude, …)
 - **[agentpack](https://github.com/OlegHQ/agentpack)** — 🤖 The package manager for AI coding agents — pin, resolve, and sync skills & plugins across Claude Code, Cursor, OpenCode, Codex, Grok, and Antigravity
-- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[paddle-eio](https://github.com/OlegHQ/paddle-eio)** — Focused Paddle Billing REST and webhook client for OCaml 5 and Eio
 - **[workflow-runtime](https://github.com/OlegHQ/workflow-runtime)** — Small in-process workflow observation runtime for OCaml
 
