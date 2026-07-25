@@ -37,11 +37,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[opam-overlay](https://github.com/OlegHQ/opam-overlay)** — Immutable opam overlay for OlegHQ OCaml library releases
 - **[workflow-runtime](https://github.com/OlegHQ/workflow-runtime)** — Small in-process workflow observation runtime for OCaml
 - **[vault-eio](https://github.com/OlegHQ/vault-eio)** — HashiCorp Vault helpers for OCaml Eio applications
 - **[resend-eio](https://github.com/OlegHQ/resend-eio)** — (no description)
-- **[paddle-eio](https://github.com/OlegHQ/paddle-eio)** — Focused Paddle Billing REST and webhook client for OCaml 5 and Eio
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
