@@ -37,11 +37,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[prismel](https://github.com/OlegHQ/prismel)** — 🎨🚀 A modern, functional graphics playground for OCaml. Build interactive art, games, and visual experiments on top of SDL2 with a clean, type-safe API
 - **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[opam-overlay](https://github.com/OlegHQ/opam-overlay)** — Immutable opam overlay for OlegHQ OCaml library releases
 - **[workflow-runtime](https://github.com/OlegHQ/workflow-runtime)** — Small in-process workflow observation runtime for OCaml
 - **[vault-eio](https://github.com/OlegHQ/vault-eio)** — HashiCorp Vault helpers for OCaml Eio applications
-- **[resend-eio](https://github.com/OlegHQ/resend-eio)** — (no description)
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
