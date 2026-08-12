@@ -37,11 +37,11 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
+- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
 - **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
 - **[prismel](https://github.com/OlegHQ/prismel)** — 🎨🚀 A modern, functional graphics playground for OCaml. Build interactive art, games, and visual experiments on top of SDL2 with a clean, type-safe API
 - **[opam-overlay](https://github.com/OlegHQ/opam-overlay)** — Immutable opam overlay for OlegHQ OCaml library releases
 - **[workflow-runtime](https://github.com/OlegHQ/workflow-runtime)** — Small in-process workflow observation runtime for OCaml
-- **[vault-eio](https://github.com/OlegHQ/vault-eio)** — HashiCorp Vault helpers for OCaml Eio applications
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
 ---
