@@ -56,5 +56,5 @@ Currently: Technical advisor for AI startups. Building infrastructure for agenti
 
 ### 05 — Connect
 
-[opustovit.com](https://opustovit.com) · [me@opustovit.com](mailto:me@opustovit.com) · [@olegpustovit](https://twitter.com/olegpustovit)
+[olegpustovit.com](https://olegpustovit.com) · [oleg@olegpustovit.com](mailto:oleg@olegpustovit.com) · [@olegpustovit](https://x.com/olegpustovit)
 
