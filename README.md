@@ -1,27 +1,18 @@
 # Oleg Pustovit
 
-> Systems architect. AI tooling. Real-time infrastructure at scale.
+Consulting for early-stage AI and robotics startups — mostly Silicon Valley teams, remote. Previously a tech lead and fractional CTO. Building tools on the side.
 
 ---
 
-### 01 — What I Do
+### What I do
 
-I design and build high-throughput systems — real-time data pipelines, AI-powered developer tools, and infrastructure that handles scale without falling over. Former startup CTO. Scaled engineering org from 3 to 30+. Now consulting on AI systems architecture.
+Hands-on product, systems, cloud, and simulation work with early-stage teams. Before that: software architect, fractional CTO, and startup tech lead — US ad-tech (Go microservices, event pipelines, Kubernetes) and leading engineering practice across an agency of ~30.
 
----
-
-### 02 — Expertise
-
-```
-Real-time systems        Session stitching, event streaming, sub-second aggregation
-AI infrastructure        LLM orchestration, context engineering, agent architectures
-Backend at scale         Go, distributed systems, Kubernetes, cost-optimized cloud
-Privacy-first design     Local-first apps, data sovereignty, GDPR/HIPAA patterns
-```
+Languages are tools. Recent work includes Go, Node.js, Python, OCaml, C++, Swift, plus cloud (Kubernetes, AWS) when needed. On the side I build editors, native apps, graphics experiments, and tooling for AI coding agents.
 
 ---
 
-### 03 — Open Source
+### Open source
 
 <!-- DYNAMIC:OPEN_SOURCE:START -->
 
@@ -37,24 +28,15 @@ _Full history: [CONTRIBUTIONS.md](CONTRIBUTIONS.md)_
 
 **Projects I'm working on**
 
-- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — 🏗️ Elite NixOS config: Flake-based, multi-platform, optimized for power users
-- **[OlegHQ](https://github.com/OlegHQ/OlegHQ)** — 👨‍💻 Personal GitHub profile README with bio, current projects, tech stack, and collaboration interests.
+- **[nixos-config](https://github.com/OlegHQ/nixos-config)** — Flake-based NixOS config, multi-platform
 - **[homebrew-tap](https://github.com/OlegHQ/homebrew-tap)** — Homebrew tap for OlegHQ tools (rssdude, …)
-- **[agentpack](https://github.com/OlegHQ/agentpack)** — 🤖 The package manager for AI coding agents — pin, resolve, and sync skills & plugins across Claude Code, Cursor, OpenCode, Codex, Grok, and Antigravity
-- **[agent-configs](https://github.com/OlegHQ/agent-configs)** — 📋 Shared configuration templates for AI agent deployments
+- **[agentpack](https://github.com/OlegHQ/agentpack)** — Package manager for AI coding agents — pin, resolve, and sync skills & plugins across Claude Code, Cursor, OpenCode, Codex, Grok, and Antigravity
+- **[agent-configs](https://github.com/OlegHQ/agent-configs)** — Shared configuration templates for AI agent deployments
 
 <!-- DYNAMIC:OPEN_SOURCE:END -->
----
-
-### 04 — Background
-
-Built real-time attribution platform processing millions of events daily. Took a startup from MVP to production in 8 months, engineering team from 3 to 30+. Shipped systems in Go, Rust, TypeScript, Python, Swift, Dart across adtech, dev tools, and consumer apps.
-
-Currently: Technical advisor for AI startups. Building infrastructure for agentic systems.
 
 ---
 
-### 05 — Connect
+### Connect
 
-[olegpustovit.com](https://olegpustovit.com) · [oleg@olegpustovit.com](mailto:oleg@olegpustovit.com) · [@olegpustovit](https://x.com/olegpustovit)
-
+[olegpustovit.com](https://olegpustovit.com) · [LinkedIn](https://www.linkedin.com/in/opustovit/) · [@olegpustovit](https://x.com/olegpustovit) · [oleg@olegpustovit.com](mailto:oleg@olegpustovit.com)
