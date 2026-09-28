@@ -1,6 +1,8 @@
 # Oleg Pustovit
 
-Consulting for early-stage AI and robotics startups — mostly Silicon Valley teams, remote. Previously a tech lead and fractional CTO. Building tools on the side.
+**Senior Fullstack and UX Engineer @ Exponential · AI & robotics startups**
+
+I'm a Senior Fullstack and UX Engineer at Exponential, Cox Enterprises' AI accelerator, where I work with early-stage Silicon Valley AI, robotics and space startups. I started as a 3D designer and technical artist, licensing work to companies including Adobe, before moving into software. I've been a tech lead and a fractional CTO, and I build developer tools, graphics and UI experiments as personal projects.
 
 ---
 
