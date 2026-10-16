@@ -13,9 +13,9 @@ Software engineer and open-source contributor. My active profile and current wor
 
 ### Redis contributions
 
-The repositories below contain 90 commits authored as Oleg Pustovit using `oleg.pustovit@dinamicka.com`, dated January–April 2021. Each evidence link points to an individual authored commit.
+The repositories below contain 90 commits authored as Oleg Pustovit using `oleg.pustovit@dinamicka.com`, dated January–April 2021. Each link points to an individual authored commit.
 
-| Repository | Authored commits | Evidence |
+| Repository | Authored commits | Link |
 |---|---:|---|
 | [basic-caching-demo-csharpdotnet](https://github.com/redis-developer/basic-caching-demo-csharpdotnet) | 3 | [Commit](https://github.com/redis-developer/basic-caching-demo-csharpdotnet/commit/a4399c8fa155dc3085546d3871a23f2b78e901ab) |
 | [basic-caching-redis-demo-go-lang](https://github.com/redis-developer/basic-caching-redis-demo-go-lang) | 2 | [Commit](https://github.com/redis-developer/basic-caching-redis-demo-go-lang/commit/e45933c9bf37859f8eaac001ae2cb70ef592d7e7) |
